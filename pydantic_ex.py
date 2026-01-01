@@ -6,3 +6,4 @@ class User(BaseModel):
 
 user = User(id=1, name="John Doe 1", email="john.doe@example.com")
 print(user)
+user3 = User(id=3, name="Jane Smith", email="jane.smith@example.com")
