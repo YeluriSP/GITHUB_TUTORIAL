@@ -4,5 +4,5 @@ class User(BaseModel):
     name: str = Field(..., description="The name of the user")
     email: str = Field(..., description="The email address of the user")
 
-user = User(id=1, name="John Doe 1", email="john.doe@example.com")
+user = User(id=1, name="John Doe", email="john.doe@example.com")
 print(user)
